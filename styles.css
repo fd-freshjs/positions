@@ -32,9 +32,14 @@
 }
 
 .pos1 {
+  width: auto;
+  height: auto;
   background-color: darkseagreen;
-  top: 1em;
-  left: 1em;
+  top: 60px;
+  bottom: 0px;
+
+  right: 0px;
+  left: 0px;
 }
 
 .pos2 {
