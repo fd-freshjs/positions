@@ -10,11 +10,16 @@
   margin: 0 auto;
   padding: 0 3em;
   height: 300vh;
+
+  border: 1px solid transparent;
 }
 
 .container {
   background-color: rgb(145, 75, 26);
   height: 100%;
+
+  position: relative;
+  margin-top: 50vh;
 }
 
 .box {
@@ -23,7 +28,7 @@
   width: 100px;
   height: 100px;
   text-align: center;
-  position: fixed;
+  position: absolute;
 }
 
 .pos1 {
@@ -48,13 +53,15 @@
 .pos4 {
   background-color: lightcoral;
   bottom: 20px;
-  right: 0px;
+  right: 1em;
   width: 150px;
   height: 200px;
 }
 
 .modal-controller {
   background-color: lime;
+  max-width: 50%;
+  margin: auto;
 }
 
 .modal-controller:hover ~ .modal {
