@@ -23,24 +23,22 @@
   width: 100px;
   height: 100px;
   text-align: center;
+  position: fixed;
 }
 
 .pos1 {
-  position: fixed;
   background-color: darkseagreen;
   top: 1em;
   left: 1em;
 }
 
 .pos2 {
-  position: fixed;
   background-color: darkviolet;
   top: 1em;
   right: 1em;
 }
 
 .pos3 {
-  position: fixed;
   background-color: fuchsia;
   bottom:1em;
   left: 1em;
@@ -48,10 +46,28 @@
 }
 
 .pos4 {
-  position: fixed;
   background-color: lightcoral;
   bottom: 20px;
   right: 0px;
   width: 150px;
   height: 200px;
+}
+
+.modal-controller {
+  background-color: lime;
+}
+
+.modal-controller:hover ~ .modal {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  background-color: lightgrey;
+  width: 80vw;
+  height: 80vh;
+  top: 0;
+  left: 0;
+  margin: 5vh 10vw;
 }
